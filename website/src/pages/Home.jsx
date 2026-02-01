@@ -496,7 +496,6 @@ function HeroSection() {
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
             className="flex flex-col items-center gap-2"
           >
-            <span className="text-xs uppercase tracking-[0.2em] text-white/40 font-medium">Scroll to explore</span>
             <div className="w-6 h-10 rounded-full border-2 border-white/20 flex items-start justify-center p-2">
               <motion.div
                 animate={{ y: [0, 12, 0], opacity: [1, 0.3, 1] }}
