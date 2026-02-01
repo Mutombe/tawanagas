@@ -341,26 +341,6 @@ function HeroSection() {
 
               {/* Divider */}
               <div className="hidden sm:block w-px h-12 bg-gradient-to-b from-transparent via-white/20 to-transparent" />
-
-              {/* Rating */}
-              <div className="flex items-center gap-3">
-                <div className="flex gap-0.5">
-                  {[1,2,3,4,5].map((i) => (
-                    <motion.div
-                      key={i}
-                      initial={{ opacity: 0, scale: 0, rotate: -180 }}
-                      animate={{ opacity: 1, scale: 1, rotate: 0 }}
-                      transition={{ delay: 1.2 + i * 0.05, type: "spring" }}
-                    >
-                      <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
-                    </motion.div>
-                  ))}
-                </div>
-                <div>
-                  <p className="text-white font-bold text-lg">4.9/5</p>
-                  <p className="text-white/50 text-sm">Customer Rating</p>
-                </div>
-              </div>
             </motion.div>
           </motion.div>
 
